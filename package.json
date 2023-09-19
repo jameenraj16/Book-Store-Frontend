@@ -1,7 +1,7 @@
 {
   "name": "book-store",
   "version": "0.1.0",
-  "homepage": " https://github.com/jameenraj16/Book-Store-Frontend.git",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",
