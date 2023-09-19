@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/jameenraj16/Book-Store-Frontend.git/static/css/main.f6f8043f.css",
+    "main.js": "/jameenraj16/Book-Store-Frontend.git/static/js/main.86ada35f.js",
+    "index.html": "/jameenraj16/Book-Store-Frontend.git/index.html",
+    "main.f6f8043f.css.map": "/jameenraj16/Book-Store-Frontend.git/static/css/main.f6f8043f.css.map",
+    "main.86ada35f.js.map": "/jameenraj16/Book-Store-Frontend.git/static/js/main.86ada35f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f6f8043f.css",
+    "static/js/main.86ada35f.js"
+  ]
+}
