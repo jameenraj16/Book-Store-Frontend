@@ -1,7 +1,7 @@
 {
   "name": "book-store",
   "version": "0.1.0",
-  "homepage": ".",
+  "homepage": " https://github.com/jameenraj16/Book-Store-Frontend.git",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",
@@ -22,7 +22,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build" 
   },
   "eslintConfig": {
     "extends": [
@@ -45,5 +47,8 @@
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
+  }
 }
