@@ -18,7 +18,7 @@ const BookDetail = () => {
   useEffect(() => {
     const fetchHandler = async () => {
       await axios
-        .get(`https://dark-gold-snapper-cuff.cyclic.cloud/books/${id}`)
+        .get(`https://dull-erin-turtle-kilt.cyclic.cloud/books/${id}`)
         .then((res) => res.data)
         .then((data) => setInputs(data.book));
     };
@@ -27,7 +27,7 @@ const BookDetail = () => {
 
   const sendRequest = async () => {
     await axios
-      .put(`https://dark-gold-snapper-cuff.cyclic.cloud/books/${id}`, {
+      .put(`https://dull-erin-turtle-kilt.cyclic.cloud/books/${id}`, {
         name: String(inputs.name),
         author: String(inputs.author),
         description: String(inputs.description),

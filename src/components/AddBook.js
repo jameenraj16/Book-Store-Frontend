@@ -29,7 +29,7 @@ const AddBook = () => {
   };
 
   const sendRequest = async () => {
-    await axios.post("https://dark-gold-snapper-cuff.cyclic.cloud/books", {
+    await axios.post("https://dull-erin-turtle-kilt.cyclic.cloud/books", {
       name: String(inputs.name),
       author: String(inputs.author),
       description: String(inputs.description),

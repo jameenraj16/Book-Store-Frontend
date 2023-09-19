@@ -7,7 +7,7 @@ const Book = (props) => {
   const { _id, name, author, description, price, image } = props.book;
   const deleteHandler = async () => {
     await axios
-      .delete(`https://dark-gold-snapper-cuff.cyclic.cloud/books/${_id}`)
+      .delete(`https://dull-erin-turtle-kilt.cyclic.cloud/books/${_id}`)
       .then((res) => res.data)
       .then(() => history("/"))
       .then(() => history("/books"));
